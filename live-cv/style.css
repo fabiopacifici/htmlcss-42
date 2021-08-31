@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+#site_header {
+  text-align: center;
+  background-color: #ededed;
+  border-bottom: 2px solid orange;
+}
