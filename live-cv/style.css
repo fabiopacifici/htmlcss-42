@@ -7,3 +7,10 @@ body {
   background-color: #ededed;
   border-bottom: 2px solid orange;
 }
+h2 {
+  color: orange;
+}
+
+h3 {
+  font-style: italic;
+}
