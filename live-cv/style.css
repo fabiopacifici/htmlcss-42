@@ -1,16 +1,41 @@
 body {
   margin: 0;
+  font-size: 14px;
 }
-
+/*
+ 1 rem == 14px 
+ 1 em = 14px
+*/
 #site_header {
   text-align: center;
   background-color: #ededed;
   border-bottom: 2px solid orange;
 }
-h2 {
+.section_title {
   color: orange;
 }
 
 h3 {
   font-style: italic;
 }
+main {
+  padding: 0 1rem;
+}
+
+#site_footer {
+  padding: 2em;
+  border-top: 2px solid orange;
+}
+
+.padding-top-4 {
+  padding-top: 4rem;
+}
+
+.education {
+  font-size: 18px;
+}
+
+/* 
+1em = 18px 
+1rem = 14px
+*/
