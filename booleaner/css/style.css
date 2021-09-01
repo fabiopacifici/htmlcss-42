@@ -1,15 +1,73 @@
+/* Common */
 body {
-  background-color: black;
   margin: 0;
   }
+main {
+  padding: 0 0.5rem;
+}
 
-  #site_header {
-    background-color: #4EA0FF;
-    background-image: url('../img/pattern.png');
-    background-size: 480px;
-  }
+thead {
+  background-color: #20A9E5;
+  color: white;
+  text-align: left;
+}
 
-  .logo {
-    height: 50px;
-    padding: 3rem 0.5rem 1.5rem;
+
+/* Utility */
+
+.bs-0 {
+  border-spacing: 0;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+
+.text-main {
+  color: #4EA0FF;
+}
+
+.odd {
+  background-color: #B1E5F2;
+}
+
+.mark {
+  background-color: yellow;
+}
+
+/* Site Header */
+
+#site_header {
+  background-color: #4EA0FF;
+  background-image: url('../img/pattern.png');
+  background-size: 480px;
+}
+
+.logo {
+  height: 50px;
+  padding: 3rem 0.5rem 1.5rem;
+}
+/* Main */
+
+.title {
+  width: 58%;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.metadata {
+  color: gray;
+}
+
+.date {
+  font-size: 0.7rem;
+}
+
+.caption {
+  font-size: 0.8rem;
 }
