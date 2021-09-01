@@ -4,6 +4,7 @@ body {
   }
 main {
   padding: 0 0.5rem;
+  margin: auto;
 }
 
 thead {
@@ -22,7 +23,9 @@ thead {
 .w-60 {
   width: 60%;
 }
-
+.w-55 {
+  width: 55%;
+}
 .pl-1 {
   padding-left: 1rem;
 }
@@ -55,12 +58,12 @@ thead {
 /* Main */
 
 .title {
-  width: 58%;
+/*   width: 58%; */
   font-size: 2.5rem;
   margin-bottom: 0.25rem;
 }
 
-.metadata {
+.text-gray {
   color: gray;
 }
 
@@ -70,4 +73,47 @@ thead {
 
 .caption {
   font-size: 0.8rem;
+}
+
+/* Reccomended */
+.monitor {
+  background-image: url('../img/monitor.jpg');
+  width: 265px;
+  height: 220px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.graph {
+  background-image: url('../img/graph.jpg');
+  width: 265px;
+  height: 220px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.image-text {
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.item {
+  position: relative;
+  color: white;
+}
+
+.item_image {
+  width: 312px;
+  height: 208px;
+
+}
+
+.text {
+  position: absolute;
+  top: 10px;
+  left: 5px;
 }
