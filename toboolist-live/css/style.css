@@ -6,4 +6,23 @@
 
 body {
   background-color: #F6F8F9;
+  font-family: 'Arial',
+  sans-serif;
+  }
+
+  /* Header */
+  header {
+    background-color: white;
+    padding: .75rem 1.5rem;
+  }
+
+  .logo {
+    vertical-align: middle;
+  }
+
+  .logo_text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: 700;
 }
