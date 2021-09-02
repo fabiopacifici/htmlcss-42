@@ -1,3 +1,4 @@
+/* Common rules */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +9,27 @@ body {
   background-color: #F6F8F9;
   font-family: 'Arial',
   sans-serif;
+  }
+
+  /* Utility classes */
+
+  .btn {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: transparent;
+  }
+
+  .btn-primary {
+    background-color: #47ADF1;
+    color: white;
+  }
+
+  .btn-outline {
+    background-color: white;
+    border: 1px solid #C7CDD2;
+    color: #C7CDD2;
   }
 
   /* Header */
@@ -25,4 +47,16 @@ body {
     vertical-align: middle;
     font-size: 2rem;
     font-weight: 700;
+}
+/* Main content */
+main {
+  width: 50%;
+  margin: 1rem auto;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.tasks_controls {
+  border-bottom: 2px solid #F6F8F9;
+  padding: 0.75rem 3rem 0.5rem;
 }
