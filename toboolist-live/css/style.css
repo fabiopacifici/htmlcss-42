@@ -10,7 +10,9 @@ body {
   font-family: 'Arial',
   sans-serif;
   }
-
+li {
+  line-height: 1.75rem
+}
   /* Utility classes */
 
   .btn {
@@ -31,7 +33,33 @@ body {
     border: 1px solid #C7CDD2;
     color: #C7CDD2;
   }
+  .list-none {
+    list-style: none;
+  }
 
+  .bg-primary {
+    background-color: #47ADF1;
+  }
+
+  .bg-purple {
+    background-color: #9C72E4;
+  }
+
+  .bg-green {
+    background-color: #64C0A9;
+  }
+
+  .bg-orange {
+    background-color: #F29E33;
+  }
+
+  .bg-pink {
+    background-color: #D863A1;
+  }
+
+  .bg-green-grass {
+    background-color: #B0C926;
+  }
   /* Header */
   header {
     background-color: white;
@@ -58,5 +86,48 @@ main {
 
 .tasks_controls {
   border-bottom: 2px solid #F6F8F9;
-  padding: 0.75rem 3rem 0.5rem;
-}
+  padding: .75rem 3rem .5rem;
+  }
+
+  /* Tasks */
+
+  section {
+    padding: 1rem 3rem;
+  }
+
+  .arrow-down {
+    vertical-align: -webkit-baseline-middle;
+  }
+
+  .checkmark {
+    border: 1px solid #6DC5B0;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 0.65rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+    color: #6DC5B0;
+  }
+
+  .cross {
+    border: 1px solid #EB5952;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 0.65rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+    color: #EB5952;
+  }
+
+  .badge {
+    font-size: 0.55rem;
+    border-radius: 0.75rem;
+    padding: 0.35rem 0.5rem;
+    color: white;
+  }
