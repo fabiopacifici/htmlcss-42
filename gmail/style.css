@@ -1,0 +1,60 @@
+/* https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg */
+
+body {
+  background-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg');
+  width: 90%;
+  margin: auto;
+}
+
+/* Header */
+header {
+
+  height: 100px;
+  border-bottom: 2px solid white;
+}
+
+.logo {
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+
+}
+
+/* Main */
+main {
+  height: 300px;
+  background-color: cadetblue;
+}
+
+span.mail-body {
+  color: grey
+}
+
+span.mail-body::before {
+  content: "-";
+}
+
+span.mail-body::after {
+  content: "...";
+}
+
+.mail-row {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.mail-row.read {
+  background-color: lightgray;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  background-color: red;
+}
