@@ -1,0 +1,94 @@
+/* Common rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Debug */
+
+.debug>header {
+  height: 100px;
+  background-color: palevioletred;
+}
+
+.debug>main {
+  background-color: cadetblue;
+}
+
+.debug>footer {
+  height: 60px;
+  background-color: purple;
+}
+
+.debug .hero_image {
+  height: 400px;
+  background-color: gold;
+}
+
+.debug .content {
+  background-color: cornflowerblue;
+}
+
+.debug .top {
+  height: 50px;
+}
+
+.debug .top,
+.debug aside,
+.debug .center {
+  background-color: aliceblue;
+}
+
+.debug aside,
+.debug .center {
+  height: 700px;
+}
+
+/* Hero Image */
+
+.hero_image {
+  margin: 1rem 0;
+}
+
+/* content */
+.content {
+  padding-bottom: 1rem;
+}
+
+.top {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.top,
+.left,
+.center,
+.right {
+  float: left;
+}
+
+.left,
+.right {
+  width: 25%;
+}
+
+.center {
+  width: 48%;
+  margin: 0 1%;
+}
+
+footer {
+  margin-top: 1rem;
+}
