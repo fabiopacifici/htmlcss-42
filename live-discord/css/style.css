@@ -24,7 +24,7 @@
 }
 
 .debug main {
-  height: 1500px;
+  /* height: 2200px; */
   background-color: bisque;
 }
 
@@ -42,8 +42,22 @@
   height: 100px;
   background-color: chocolate;
 }
-/* Utility rules */
+.debug .hero_image {
+  height: 600px;
+  background-color: rgba(220, 20, 60, 0.774);
+}
 
+.debug section {
+  height: 400px;
+}
+/* Utility rules */
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray {
+  background-color: #F6F6F6;
+}
 
 /* Header */
 #site_header .logo,
