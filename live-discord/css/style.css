@@ -1,0 +1,32 @@
+/* Commons rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Debug rules */
+.debug header {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.debug main {
+  height: 1500px;
+  background-color: bisque;
+}
+
+.debug footer {
+  height: 400px;
+  background-color: cadetblue;
+}
+
+/* Utility rules */
+
+
+/* Header */
+
+/* Main */
+
+/* Footer */
