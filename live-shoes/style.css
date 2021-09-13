@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik Mono One',
+    sans-serif;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.ed {
+  background-color: #f00;
+}
+
+.geen {
+  background-color: darkgreen;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.navigato {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+.navigato a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+.shoe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-green {
+  color: green;
+}
+
+.shoe h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* Debug */
+
+.debug .aboutme {
+  height: 400px;
+  background: red;
+}
