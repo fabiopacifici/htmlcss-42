@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 2rem auto;
+}
+
+.green {
+  background-color: green;
+}
+
+.like {
+  display: none;
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  color: red;
+}
+
+
+/* Product */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.product {
+  position: relative;
+  float: left;
+  width: 33.33%;
+}
+
+.product img {
+  width: 100%;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.product:hover .like {
+  display: block;
+}
+
+.red {
+  background-color: red;
+}
