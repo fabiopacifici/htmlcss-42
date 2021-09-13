@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* Debug rules */
 .debug header {
@@ -21,11 +32,34 @@
   height: 400px;
   background-color: cadetblue;
 }
+.debug .logo,
+.debug .login {
+  height: 100px;
+  background-color: rgba(165, 42, 42, 0.5);
+}
 
+.debug .menu {
+  height: 100px;
+  background-color: chocolate;
+}
 /* Utility rules */
 
 
 /* Header */
+#site_header .logo,
+#site_header .menu,
+#site_header .login {
+  float: left;
+}
+
+#site_header .logo,
+#site_header .login {
+  width: 20%;
+}
+
+#site_header .menu {
+  width: 60%;
+}
 
 /* Main */
 
