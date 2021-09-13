@@ -50,6 +50,18 @@
 .debug section {
   height: 400px;
 }
+.debug .col-40,
+.debug .col-60 {
+  height: 400px;
+}
+
+.debug .col-40 {
+  background-color: pink;
+}
+
+.debug .col-60 {
+  background-color: blueviolet;
+}
 /* Utility rules */
 .bg-white {
   background-color: white;
@@ -57,6 +69,19 @@
 
 .bg-gray {
   background-color: #F6F6F6;
+}
+
+.col-40,
+.col-60 {
+  float: left;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
 }
 
 /* Header */
