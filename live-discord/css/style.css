@@ -96,7 +96,62 @@ body {
 .text-right {
   text-align: right;
 }
-/* Header */
+p.lead {
+  font-size: 1.1rem;
+  line-height: 36px;
+  margin: 1rem 0;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+  line-height: 1rem;
+}
+
+.btn_light {
+  background-color: white;
+  color: black;
+}
+
+.btn_light:hover {
+  color: #3161E0;
+  text-decoration: none;
+}
+
+.btn_dark {
+  background-color: #23272A;
+  color: white;
+}
+
+.btn_large {
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+.px-1 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/*******************
+* Header 
+******************/
+#site_header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+
+#site_header .logo>img {
+  vertical-align: middle;
+}
 #site_header .logo,
 #site_header .menu,
 #site_header .login {
@@ -110,6 +165,7 @@ body {
 
 #site_header .menu {
   width: 60%;
+  text-align: center;
 }
 
 #site_header .menu a {
@@ -121,15 +177,7 @@ body {
   text-decoration: underline;
 }
 
-#site_header {
-  background-color: #3161E0;
-  height: 100px;
-  line-height: 100px;
-}
 
-#site_header .logo>img {
-  vertical-align: middle;
-}
 
 /* Menu */
 
@@ -137,23 +185,26 @@ body {
   padding-right: 1rem;
 }
 
-a.btn {
-  padding: 0.5rem 1rem;
-  border-radius: 1rem;
-  text-decoration: none;
-  font-size: 0.9rem;
+/****************
+* Main 
+****************/
+
+/* .hero image */
+.hero_image {
+  background-image: url('../img/jumbo.png');
+  background-position: top;
+  background-size: cover;
 }
 
-a.btn.btn_light {
-  background-color: white;
-  color: black;
+.hero_text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 10rem 0;
 }
 
-a.btn.btn_light:hover {
-  color: #3161E0;
-  text-decoration: none;
+.hero_text .title {
+  font-size: 3.5rem;
 }
-
-/* Main */
-
 /* Footer */
