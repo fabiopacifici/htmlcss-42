@@ -1,0 +1,115 @@
+/* Debug */
+.debug header {
+  height: 100px;
+  background-color: red;
+}
+
+.debug .menu_left,
+.debug .menu_right {
+  height: 100px;
+  background-color: aqua;
+}
+
+.debug main {
+  height: 2000px;
+  background-color: darkgrey;
+}
+
+.debug .jumbotron {
+  height: 600px;
+  background-color: cornflowerblue;
+}
+
+.debug .jumbotron div[class^="col_"] {
+  height: 400px;
+  background-color: rebeccapurple;
+}
+
+.debug footer {
+  height: 400px;
+  background-color: coral;
+}
+
+
+/* Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_lg,
+.container {
+  margin: auto;
+}
+
+.container_lg {
+  width: 80%;
+}
+
+.container {
+  width: 60%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Oppure */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Richiede l'utilizzo di .row ogni volta che si hanno elementi flottanti tipo col_ */
+.row {
+  margin: 0 -1rem;
+}
+
+div[class^="col_"] {
+  float: left;
+  padding: 0 1rem;
+}
+
+.col_30 {
+  width: 30%;
+}
+
+.col_33 {
+  width: 33.33%;
+}
+
+.col_50 {
+  width: 50%;
+}
+
+.col_70 {
+  width: 70%;
+}
+
+
+
+/****************
+ Header 
+ ************/
+
+/* Nav */
+
+nav {
+  padding: 0 1rem;
+}
+
+nav .menu_left,
+nav .menu_right {
+  float: left;
+  width: 50%;
+}
+
+/* Plans */
+
+.plans .card {
+  border: 1px solid lightgray;
+}
