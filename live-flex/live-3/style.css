@@ -1,0 +1,39 @@
+body {
+  background: #000;
+}
+
+.container {
+  display: flex;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+
+  margin: 0.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+p {
+  color: white;
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_green {
+  background-color: green;
+}
+
+.bg_pink {
+  background-color: pink;
+}
+
+.flex_center {
+  justify-content: center;
+  align-items: center;
+}
