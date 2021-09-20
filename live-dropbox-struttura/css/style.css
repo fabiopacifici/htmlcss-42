@@ -38,6 +38,12 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 1440px;
+}
+
+/* impostando una larghezza minima al body evitiamo che il layout collassi quando ristringiamo la finestra del browser */
+
 .container_lg,
 .container {
   margin: auto;
@@ -63,6 +69,15 @@
   display: table;
   clear: both;
 }
+img {
+  width: 100%;
+}
+
+section {
+  margin: 5rem 0;
+}
+
+/* Utility */
 
 /* Richiede l'utilizzo di .row ogni volta che si hanno elementi flottanti tipo col_ */
 .row {
@@ -90,14 +105,32 @@ div[class^="col_"] {
   width: 70%;
 }
 
+.list_inline li {
+  list-style: none;
+  display: inline-block;
+}
+
+.btn {
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 0;
+}
+
+.btn_primary {
+  background-color: rgb(0, 97, 255);
+  color: white;
+}
 
 
 /****************
  Header 
  ************/
-
+#site_header {
+  line-height: 60px;
+  box-shadow: 2px 2px 2px #ededed;
+}
 /* Nav */
-
 nav {
   padding: 0 1rem;
 }
@@ -107,9 +140,40 @@ nav .menu_right {
   float: left;
   width: 50%;
 }
+.logo img {
+  vertical-align: middle;
+}
+
+nav .menu_right {
+  text-align: right;
+}
+
+.menu_left li>a,
+.menu_right li>a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 2rem;
+}
+
+
+header .list_inline,
+header .logo {
+  display: inline-block;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-color: rgb(180, 208, 231);
+}
+
+.jumbotron img {
+  margin-bottom: -6rem;
+}
 
 /* Plans */
 
 .plans .card {
   border: 1px solid lightgray;
+/*   min-height: 1000px; */
 }
+
