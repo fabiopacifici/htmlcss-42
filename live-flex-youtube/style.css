@@ -1,0 +1,190 @@
+/* Common rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #181818;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 80px; */
+  border-bottom: 1px solid #2a2a2a;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+.logo img {
+  width: 100px;
+  filter: invert() hue-rotate(187deg) saturate(8.5);
+}
+
+.logo,
+.menu {
+  flex-grow: 1;
+}
+
+.menu {
+  text-align: right;
+}
+
+.search_wrapper {
+  flex-grow: 3;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.search .icon {
+  background-color: #2a2a2a;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 4rem;
+  justify-content: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+input[type="search"] {
+  background-color: #181818;
+  border: 1px solid #2a2a2a;
+  height: 3rem;
+  width: 100%;
+  padding: 0.25rem;
+}
+
+.mic {
+  background-color: #222222;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.menu a {
+  color: white;
+  padding: 0.5rem;
+}
+
+/* Main */
+
+
+.item {
+  margin: 1rem;
+  flex-grow: 1;
+  flex-basis: 400px;
+  min-height: 300px;
+
+}
+
+.item img {
+  display: block;
+  width: 100%;
+
+}
+
+.item .image .overlay {
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #333333a1;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+.item h3 {
+  color: white;
+}
+
+.item p {
+  color: grey;
+}
+
+
+.item:hover {
+  cursor: pointer;
+
+}
+
+.item:hover .fa-ellipsis-v {
+  visibility: visible;
+
+}
+
+
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.item:hover .play {
+  visibility: visible;
+  z-index: 2;
+}
+
+.overlay-all {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.781);
+  visibility: hidden;
+  z-index: 1;
+  position: absolute;
+}
+
+.item:hover .overlay-all {
+  visibility: visible;
+}
+
+.item .text {
+  padding: 0.5rem 0;
+}
