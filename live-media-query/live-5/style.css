@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ededed;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (min-width: 780px) {
+
+  /*   ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+  } */
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  nav li {
+    background-color: gray;
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+}

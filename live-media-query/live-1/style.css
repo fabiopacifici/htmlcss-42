@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ededed;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  background-color: blue;
+}
+
+@media screen and (min-width: 479px) {
+  .square {
+    background-color: fuchsia;
+    display: inline-block;
+  }
+}
+
+/* @media screen and (max-width: 479px) {
+  .square {
+    background-color: fuchsia;
+    display: inline-block;
+  }
+} */

@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ededed;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+/* .box.blue {
+  width: 200px;
+  height: 200px;
+
+} */
+
+
+.green {
+  background-color: palegreen;
+}
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+.white {
+  background-color: white;
+}
+
+.container,
+.box.green {
+  display: flex;
+}
+
+
+.box.green {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.box.white {
+  height: 100%;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 580px) {
+  .box.green {
+    display: none;
+  }
+
+  .box.blue {
+    width: 100%;
+  }
+}

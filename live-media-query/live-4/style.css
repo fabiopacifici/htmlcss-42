@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+
+.box {
+  height: 300px;
+  background-color: cornflowerblue;
+}
+
+@media screen and (max-width: 479px) {
+  .box {
+    background-color: palegreen;
+  }
+
+}
+
+@media screen and (min-width: 1441px) {
+  .box {
+    background-color: fuchsia;
+  }
+
+}
