@@ -1,0 +1,96 @@
+/* Common */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Debug */
+.debug main {
+  background-color: fuchsia;
+}
+
+.debug footer {
+  background-color: palegreen;
+}
+
+.debug aside {
+  background-color: paleturquoise;
+}
+
+.debug aside .top {
+  background-color: pink;
+}
+
+.debug .col {
+  background-color: white;
+  height: 300px;
+}
+
+/* Struttura */
+body {
+  background: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  margin: 1rem -0.5rem;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.col {
+  width: calc(100% / 4);
+  float: left;
+  padding: 0 0.5rem;
+}
+
+/* Struttura con flex*/
+/* Main */
+main {
+  height: calc(100vh - 100px);
+  display: flex;
+}
+
+/* Sidebar */
+aside {
+  width: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+aside .top {
+  height: 400px;
+}
+
+aside .bottom {
+  height: 100px;
+  background-color: #000;
+}
+
+/* Content */
+.content {
+  width: calc(100% - 220px);
+  height: 100%;
+  background-color: burlywood;
+  overflow-y: auto;
+}
+
+
+/* Footer */
+footer {
+  height: 100px;
+}

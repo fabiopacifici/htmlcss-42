@@ -1,0 +1,1 @@
+Esempio struttura con float

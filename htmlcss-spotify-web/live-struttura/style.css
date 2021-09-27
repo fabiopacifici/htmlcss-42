@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Utility */
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.container {
+  max-width: 1170px;
+  margin: 1rem auto;
+}
+
+.row {
+  /* Soluzione con flex */
+  width: 100%;
+  margin: 0.5rem -0.5rem;
+  display: flex;
+}
+
+
+.col {
+  width: calc(100% / 4);
+  padding: 0 0.5rem;
+}
+
+/* Debug */
+.debug main {
+  background-color: palevioletred;
+}
+
+.debug footer {
+  background-color: palegreen;
+}
+
+.debug .sidebar {
+  background-color: aquamarine;
+}
+
+.debug .content {
+  background-color: bisque;
+}
+
+.debug .top,
+.debug .bottom {
+  background-color: paleturquoise;
+}
+
+.debug .col {
+  background-color: red;
+  height: 300px;
+}
+
+/* main  */
+main {
+  height: calc(100vh - 100px);
+  /* display: flex;
+  Soluzione 1 */
+}
+
+
+.sidebar,
+.content {
+  height: 100%;
+  float: left;
+}
+
+.sidebar {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  height: 400px;
+}
+
+.bottom {
+  height: 100px;
+}
+
+/* App Content */
+.content {
+  width: calc(100% - 220px);
+  overflow-y: auto;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+}
