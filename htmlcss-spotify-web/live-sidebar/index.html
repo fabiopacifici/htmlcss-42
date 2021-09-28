@@ -1,101 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify Web</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css" />
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
 
-</head>
+  </head>
 
-<body class="debug">
+  <body class="">
 
-  <main>
-    <aside>
-      <!-- Struttura interna sidebar semplificata rimosso il div .top -->
+    <main>
+      <aside>
+        <!-- Struttura interna sidebar semplificata rimosso il div .top -->
 
-      <div class="logo">
-        <img height="40" src="../img/logo.svg" alt="">
+        <div class="logo">
+          <img height="40" src="../img/logo.svg" alt="">
+        </div>
+        <!-- /.logo -->
+        <div class="menu">
+          <ul>
+            <li class="active">
+              <a href="#">
+                <img src="../img/home.svg" alt="">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/search.svg" alt="">
+                Cerca
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="../img/libreria.svg" alt="">
+                La tua libreria
+              </a>
+            </li>
+            </ul>
+            </div>
+            <!-- /.menu -->
+            <div class="playlist">
+              <div class="create">
+                <a href="" class="btn">
+                  <i class="fas fa-plus-square fa-3x"></i>
+                  Add playlist
+                </a>
+              </div>
+              <ul class="list">
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            
+            </ul>
+            <!-- /.list -->
+            </div>
+            <!-- /.playlist -->
+
+        <div class="bottom">
+          <div class="download">
+            <img src="../img/download.svg"
+              alt="arrow pointing down inside a
+                                                                                                                                                                                                                                                                                                                                                                                                  circle">
+            Installa app
+            </div>
+            <div class="profile">
+              <i class="fas fa-user-circle fa-lg fa-fw"></i>
+              Fabio
+            </div>
+            </div>
+            </aside>
+            <div class="content">
+
+        <div class="container">
+          <section class="recently-played">
+            <h3>Recently played</h3>
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+              </div>
+          </section>
+          
+          <section class="created-for">
+            <h3>Creato per John Doe</h3>
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="cover">
+                      <img src="../img/stranger.jpeg" alt="">
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </section>
+                <section class="popuplar-artists">
+                  <h3>Artisti piú popolari</h3>
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <div class="cover">
+                    <img src="../img/stranger.jpeg" alt="">
+                  </div>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="cover">
+                      <img src="../img/stranger.jpeg" alt="">
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </section>
+        </div>
+
       </div>
-      <!-- /.logo -->
-      <div class="menu">
-        <ul>
-          <li>Lorem</li>
-          <li>Lorem</li>
-          <li>Lorem</li>
-        </ul>
-      </div>
-      <!-- /.menu -->
-      <div class="playlist">
-        <div class="create">
-          <a href="" class="btn">
-            <i class="fas fa-plus-square fa-3x"></i>
-            Add playlist
-          </a>
+      </main>
+      <footer>
+        <div class="song d_flex align_center">
+          <div class="song_info d_flex align_center">
+            <img height="50" src="../img/sinister.jpeg" alt="">
+            <div class="song_text">
+              <h5>Sinister</h5>
+              <strong>Brano name</strong>
+            </div>
+          </div>
+          <div class="song_actions">
+            <i class="fas fa-heart fa-sm fa-fw"></i>
+            <i class="fas fa-folder fa-sm fa-fw"></i>
+          </div>
         </div>
-        <ul class="list">
-          <li>Lorem.</li>
-          <li>Et!</li>
-          <li>Facilis!</li>
-          <li>Deleniti!</li>
-          <li>Commodi.</li>
-          <li>Hic?</li>
-          <li>Maiores!</li>
-          <li>Deleniti!</li>
-          <li>Commodi.</li>
-          <li>Hic?</li>
-          <li>Maiores!</li>
-          <li>Deleniti!</li>
-          <li>Commodi.</li>
-          <li>Hic?</li>
-          <li>Maiores!</li>
-        </ul>
-        <!-- /.list -->
-      </div>
-      <!-- /.playlist -->
+        <div class="player">
+          <div class="player_controls">
+            <i class="fas fa-random fa-sm fa-fw"></i>
+            <i class="fas fa-step-backward fa-sm fa-fw"></i>
+            <i class="far fa-play-circle fa-lg fa-fw"></i>
+            <i class="fas fa-step-forward fa-sm fa-fw"></i>
+            <i class="fas fa-redo fa-sm fa-fw"></i>
+          </div>
+          <div class="time">
+            <div class="time_gone"></div>
+          </div>
+        </div>
+        <div class="controls">werwer</div>
+      </footer>
 
-      <div class="bottom">
-        <div class="download">
-          <img height="20px" src="../img/download.svg" alt="arrow pointing down inside a circle">
-          Download
-        </div>
-        <div class="profile">
-          <i class="fas fa-user-circle fa-lg fa-fw"></i>
-          Fabio
-        </div>
-      </div>
-    </aside>
-    <div class="content">
-
-      <div class="container">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-        <div class="row">
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-          <div class="col"></div>
-        </div>
-      </div>
-
-    </div>
-  </main>
-  <footer></footer>
-
-</body>
+  </body>
 
 </html>
