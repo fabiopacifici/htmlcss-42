@@ -1,0 +1,25 @@
+.debug [class^="col"] {
+  background-color: lightcoral;
+  border: 1px solid black;
+}
+
+.debug .row {
+  height: 200px;
+}
+
+
+.row>[class^="col"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Riga diretta discendente di .col-6 */
+[class^="col"]>.row {
+  padding: 0.5rem;
+}
+
+[class^="col"]>.row>[class^="col"] {
+  border: 1px solid white;
+  background-color: cornflowerblue;
+}
