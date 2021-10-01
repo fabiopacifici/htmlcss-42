@@ -15,11 +15,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 0 -0.5rem;
 }
 
 [class^="col"] {
   padding: 0.5rem;
 }
+  [class*="col-"] {
+    flex: 0 0 auto;
+  }
+
 
 /* Extra small devices */
 .col {
@@ -31,9 +36,10 @@
 
 
 .col-1 {
-  /* width: calc((100% / 12) * 1); */
-  flex-basis: calc((100% / 12) * 1);
-  max-width: calc((100% / 12) * 1);
+  width: calc((100% / 12) * 1);
+
+  /* flex-basis: calc((100% / 12) * 1); */
+  /*  max-width: calc((100% / 12) * 1); */
 }
 
 .col-2 {
