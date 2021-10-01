@@ -1,0 +1,107 @@
+:root {
+  --freelance-black: #333333;
+  --freelance-blue: #3A546D;
+  --freelance-dark-blue: #2C3E50;
+  --freelance-green: #1ABC9C;
+}
+
+body {
+  color: var(--freelance-black);
+}
+
+.bg_dark {
+  background-color: var(--freelance-dark-blue);
+}
+
+.bg_green {
+  background-color: var(--freelance-green);
+}
+
+#mainNav a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar-brand strong {
+  font-size: 1.5rem;
+}
+
+.star_divider::before,
+.star_divider::after {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 80px;
+  border-radius: 2px;
+}
+
+
+.jumbo .star_divider::before,
+.jumbo .star_divider::after,
+.about .star_divider::before,
+.about .star_divider::after {
+  background-color: white;
+}
+
+.portfolio .star_divider::before,
+.portfolio .star_divider::after,
+.contacts .star_divider::before,
+.contacts .star_divider::after {
+  background-color: var(--freelance-dark-blue);
+}
+
+.portfolio {
+  color: var(--freelance-black);
+}
+
+.portfolio img,
+.portfolio .card {
+  border-radius: 1rem !important;
+}
+
+.contacts .form-control {
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0;
+  padding-left: 0;
+  color: var(--freelance-black);
+  font-weight: 600;
+}
+
+footer {
+  background-color: var(--freelance-blue);
+  padding-top: 4rem;
+  text-align: center;
+}
+
+footer h4 {
+  text-transform: uppercase;
+}
+
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .social i {
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+footer .social i:not(:last-child) {
+  margin-right: 1rem;
+}
+
+footer .footer_link {
+  color: var(--freelance-green);
+  text-decoration: none;
+}
